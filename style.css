@@ -551,8 +551,11 @@ h3 {
   }
 
   .hero-sticker {
-    right: 7%;
-    bottom: 5%;
+    right: 5%;
+    bottom: 3%;
+    width: 95px;
+    height: 95px;
+    font-size: 0.95rem;
   }
 
   .welcome {
