@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Stella Sweets — oven-fresh pastries to make you smile.">
+  <title>Stella Sweets Bakery</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- The original Canva design uses embedded Canva fonts. Replace these with local/web fonts if you identify them. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Stella Sweets home">STELLA <span>SWEETS</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation"
+      aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#about">Our Story</a><a href="#menu">On the Menu</a><a href="#team">Our
+        Bakers</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="#menu">GET SOME GOODIES!</a>
+  </header>
+
+  <main>
+    <!-- HERO: replace images/hero-bakery.jpg with your own image file. -->
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">FRESH FROM OUR OVEN</p>
+
+        <div class="hero-heading">
+          <img src="images/stella-sweets-logo.png" alt="Stella's Sweets Handmade Treats" class="hero-logo">
+
+          <h1>We're here<br>to bake you happy!</h1>
+        </div>
+
+        <p class="hero-subtitle">Oven-fresh pastries<br>to make you smile</p>
+
+        <a class="pill-button" href="#menu">
+          GET SOME GOODIES! <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+
+      
+
+      <div class="hero-sticker" aria-hidden="true">
+        Spread a<br>little joy.
+      </div>
+    </section>
+
+    <section class="welcome section-gold" id="about">
+      <div class="welcome-inner">
+        <p class="eyebrow">WELCOME TO STELLA SWEETS</p>
+        <h2>Good things are<br>baking here.</h2>
+        <p class="body-copy">We believe that food is more than sustenance — it's an experience. There's comfort in warm
+          cake, joy in sweet drizzles, and happiness in pillow-soft bread. We serve oven-fresh pastries meant to make
+          our customers smile.</p>
+        <p class="body-copy">We look forward to your visit, and hope that we get to bake you happy!</p>
+        <img class="welcome-detail" src="images/welcome-pastries.jpg" alt="Fresh pastries ready to enjoy"
+          loading="lazy">
+      </div>
+    </section>
+
+    <section class="menu-section section-cream" id="menu">
+      <div class="section-title">
+        <p class="eyebrow">MADE FRESH WITH LOVE</p>
+        <h2>On the Menu</h2>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-item"><img src="images/menu-pastries.jpg" alt="Fresh pastries" loading="lazy">
+          <div class="menu-item-copy">
+            <p class="eyebrow">PREMIUM INGREDIENTS</p>
+            <h3>Just-Baked Pastries</h3>
+          </div>
+        </article>
+        <article class="menu-item"><img src="images/menu-breakfast.jpg" alt="Breakfast served at the bakery"
+            loading="lazy">
+          <div class="menu-item-copy">
+            <p class="eyebrow">ANY TIME OF DAY</p>
+            <h3>All-Day Breakfast</h3>
+            <p>Comfort food you can enjoy any time of day.</p>
+          </div>
+        </article>
+        <article class="menu-item"><img src="images/menu-desserts.jpg" alt="A selection of desserts" loading="lazy">
+          <div class="menu-item-copy">
+            <p class="eyebrow">SWEET LITTLE MOMENTS</p>
+            <h3>Divine Desserts</h3>
+            <p>Guaranteed to satisfy every sweet craving.</p>
+          </div>
+        </article>
+      </div>
+      <a class="pill-button pill-button-dark" href="#contact">VIEW FULL MENU <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <section class="feature-section section-pink" id="team">
+      <div class="feature-photo"><img src="images/bakers-team.jpg" alt="The Stella Sweets baking team" loading="lazy">
+      </div>
+      <div class="feature-copy">
+        <p class="eyebrow">MEET YOUR BAKERS!</p>
+        <h2>Good people.<br>Great baking.</h2>
+        <p>Our team of passionate bakers is committed to their craft, bringing care and creativity to every batch.</p><a
+          class="text-link" href="#contact">Behind the scenes <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="kitchen-section section-gold">
+      <div class="kitchen-photo"><img src="images/test-kitchen.jpg" alt="A baker working in the test kitchen"
+          loading="lazy"></div>
+      <div class="kitchen-copy">
+        <p class="eyebrow">ALWAYS TRYING SOMETHING NEW</p>
+        <h2>From our<br>test kitchen</h2>
+        <p>Our team is constantly cooking up something new, so we can offer seasonal specials alongside our bestsellers.
+        </p>
+        <div class="good-doing-good">
+          <h3>Food Doing Good</h3>
+          <p>We love baking for you — and finding ways to share a little happiness with our community, too.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-cream" id="contact">
+      <div class="contact-copy">
+        <p class="eyebrow">COME SAY HELLO</p>
+        <h2>Get in touch<br>with us!</h2>
+        <p>123 Anywhere St.<br>Any City, State<br>Country 12345</p>
+        <p><a href="tel:+11234567890">(123) 456-7890</a><br><a href="mailto:hello@example.com">hello@example.com</a></p>
+        <a class="pill-button pill-button-dark" href="mailto:hello@example.com">SAY HELLO <span
+            aria-hidden="true">↗</span></a>
+      </div>
+      <div class="contact-photo"><img src="images/contact-bakery.jpg" alt="A welcoming bakery counter" loading="lazy">
+      </div>
+      <div class="contact-brand">STELLA<br><span>SWEETS</span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="wordmark" href="#home">STELLA <span>SWEETS</span></a>
+    <p>Oven-fresh pastries to make you smile.</p>
+    <p>© <span id="year"></span> Stella Sweets</p>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.main-nav');
+    toggle.addEventListener('click', () => {
+      const open = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!open));
+      nav.classList.toggle('is-open', !open);
+    });
+    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      nav.classList.remove('is-open'); toggle.setAttribute('aria-expanded', 'false');
+    }));
+  </script>
+</body>
+
+</html>
